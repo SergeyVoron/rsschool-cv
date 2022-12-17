@@ -1,0 +1,320 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+
+.logo__link {
+    width: 100px;
+    height: 70px;
+}
+
+.header {
+    background: rgb(0, 0, 0);
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.main {
+    padding-bottom: 100px;
+    padding-top: 70px;
+}
+
+.main_container {
+    width: 100%;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    margin: 0 15px;
+}
+
+.menu__list-link {
+    font-size: 26px;
+    color: white;
+}
+
+.top__avatar-images {
+    width: 450px;
+    height: 300px;
+    border: 10px rgb(114, 113, 113) solid;
+}
+
+.main__heading {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.top__content {
+    text-align: center;
+    padding-top: 90px;
+    width: 50%;
+}
+
+.top__title {
+    font-size: 50px;
+    margin: 0 auto 20px;
+    max-width: 455px;
+}
+
+.top__text {
+    font-size: 40px;
+    max-width: 470px;
+    margin: 0 auto 60 px;
+}
+
+.top__avatar {
+    width: 50%;
+}
+
+.about__flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.about__title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.about__content {
+    text-align: center;
+}
+
+.about__information {
+    margin: 50px;
+    font-size: 28px;
+    line-height: 1.5cm;
+}
+
+.education__flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.education__title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.education__content {
+    text-align: center;
+}
+
+.education__information {
+    margin: 50px;
+    font-size: 28px;
+    line-height: 1.5cm;
+}
+
+.skills__flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills__title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.skills__content {
+    text-align: center;
+}
+
+.skills__information {
+    margin: 50px;
+    font-size: 28px;
+    line-height: 1.5cm;
+}
+
+.courses__flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.courses__title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.courses__content {
+    text-align: center;
+}
+
+.courses__information {
+    margin: 50px;
+    font-size: 28px;
+    line-height: 1.5cm;
+}
+
+.language__flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.language__title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.language__content {
+    text-align: center;
+}
+
+.language__information {
+    margin: 50px;
+    font-size: 28px;
+    line-height: 1.5cm;
+}
+
+section {
+    background-color: rgb(255, 255, 73);
+}
+
+
+.contacts__flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.contacts__content {
+    text-align: center;
+}
+
+.contacts__information {
+    margin: 50px;
+    font-size: 28px;
+    line-height: 1.5cm;
+}
+
+.progects__flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.progects__title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.progects__content {
+    text-align: center;
+}
+
+.progects__information {
+    margin: 50px;
+    font-size: 28px;
+}
+
+.code__flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.code__title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.code__content {
+    text-align: center;
+}
+
+.code__information {
+    margin: 50px;
+    font-size: 28px;
+    align-self: center;
+    border: 5px rgb(81, 81, 81) solid;
+    background-color: white;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer__logo__link {
+    width: 150px;
+    height: 80px;
+}
+
+.footer__container {
+    background: black;
+}
+
+.date {
+    color: white;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+a {
+    color: white;
+    font-size: 24px;
+
+}
+
+.cv__link {
+    border: 2px solid rgb(81, 81, 81);
+    font-size: 30px;
+    color: rgb(177, 166, 166);
+    line-height: 1.5cm;
+}
