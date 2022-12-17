@@ -1,18 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV#2. HTML, CSS and Git Basics</title>
-    <link rel="stylesheet" href="/rsschool-cv/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="icon" href="img/1670840208911.ico">
+    <title>Document</title>
 </head>
+
 <body>
-    <header><h1>CV#2. HTML, CSS and Git Basics</h1>
-    <img class="my_photo" src="/rsschool-cv/_MG_8938.JPG" alt="my_photo">
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="#">
+                    <img class="logo__link" src="img/logoza.ru.png" alt="logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__list-link" href="#About me">About me</a></li>
+                        <li class="menu__item"><a class="menu__list-link" href="#Education">Education</a></li>
+                        <li class="menu__item"><a class="menu__list-link" href="#Skills">Skills</a></li>
+                        <li class="menu__item"><a class="menu__list-link" href="#Courses">Courses</a></li>
+                        <li class="menu__item"><a class="menu__list-link" href="#languages">languages</a></li>
+                        <li class="menu__item"><a class="menu__list-link" href="#Code">Code</a></li>
+                        <li class="menu__item"><a class="menu__list-link" href="#Contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+    <section class="main">
+        <div class="main_container">
+            <div class="main__heading">
+                <div class="top__content">
+                    <h1 class="top__title">
+                        Sergey Voronin
+                    </h1>
+                    <p class="top__text">
+                        Web developer
+                    </p>
+                </div>
+                <div class="top__avatar">
+                    <div class="top__avatar-foto">
+                        <img class="top__avatar-images" src="img/_MG_8938.JPG" alt="my foto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about__me">
+        <div class="about__container">
+            <div class="about__flex">
+                <div class="about__content">
+                    <h2 class="about__title">
+                        About me
+                    </h2>
+                </div>
+                <div class="about__information">
+                    <p id="About me">
+                        My name is Sergey Voronin, I am a novice web developer.
+                        I am 34 years old. I have been practicing law for most of my life,
+                        and I have always had a liking for programming.
+                        Perseverance, determination and focus on results - that's what helps
+                        me achieve my goals.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education">
+        <div class="education__container">
+            <div class="education__flex">
+                <div class="education__content">
+                    <h2 class="education__title">
+                        Education
+                    </h2>
+                </div>
+                <div class="education__information">
+                    <h3 id="Education">
+                        Educational institutions
+                    </h3>
+                    <ul class="education__ul">
+                        <li class="education__item">Tyumen State University. Specialty - law. 2015</li>
+                        <li class="education__item">
+                            Tyumen Soft. Basics of programming 1C. 2021</li>
+                        <li class="education__item">RS school - student. 2022</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="skills__container">
+            <div class="skills__flex">
+                <div class="skills__content">
+                    <h2 class="skills__title">
+                        Skills
+                    </h2>
+                </div>
+                <div class="skills__information">
+                    <h3 id="Skills">
+                        My skills
+                    </h3>
+                    <ul class="skills__ul">
+                        <li class="skills__item">HTML</li>
+                        <li class="skills__item">CSS</li>
+                        <li class="skills__item">JS - beginner</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="courses">
+        <div class="courses__container">
+            <div class="courses__flex">
+                <div class="courses__content">
+                    <h2 class="courses__title">
+                        Courses
+                    </h2>
+                </div>
+                <div class="courses__information">
+                    <h3 id="Courses">
+                        My courses
+                    </h3>
+                    <ul class="courses__ul">
+                        <li class="courses__item">
+                            Tyumen Soft. basics of programming on the 1C platform. 2021</li>
+                        <li class="courses__item">RS school (stage 0) - student. 2022-2023</li>
+                        <li class="courses__item">Stepik - web development for beginners. 2022</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <section class="language">
+            <div class="language__container">
+                <div class="language__flex">
+                    <div class="language__content">
+                        <h2 class="language__title">
+                            language
+                        </h2>
+                    </div>
+                    <div class="language__information">
+                        <h3 id="languages">
+                            My language
+                        </h3>
+                        <ul class="skills__ul">
+                            <li class="language__item">Russian - native</li>
+                            <li class="language__item">English - A1</li>
+                            <li class="language__item">German - beginner</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="code__me">
+            <div class="code__container">
+                <div class="code__flex">
+                    <div class="code__content">
+                        <h2 class="code__title">
+                            Code
+                        </h2>
+                    </div>
+                    <div class="code__information">
+                        <p id="Code">
+                        <pre><code>function factorial(n) {
+                                if (n ❮ 0) return null;
+                                if (n === 0) return 1;
+                                return n * factorial(n-1);
+                               }</code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="progects__me">
+            <div class="progects__container">
+                <div class="progects__flex">
+                    <div class="progects__content">
+                        <h2 class="progects__title">
+                            My progects
+                        </h2>
+                    </div>
+                    <div class="progects__information">
+                        <p class="progects">
+                            Currently I am just starting my way in programming,
+                            the page (summary) can be evaluated as my first project -
+                            <a class="cv__link" href="https://SergeyVoron.github.io/rsschool-cv/">link to my project</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="contacts__container">
+                <div class="contacts__flex">
+                    <div class="contacts__content">
+                        <h2 class="contacts__title">
+                            Contacts
+                        </h2>
+                    </div>
+                    <div class="contacts__information">
+                        <h3 id="Contacts">
+                            My contacts
+                        </h3>
+                        <ul class="contacts__ul">
+                            <li class="contacts__item">Telegram - @SergeyTmn</li>
+                            <li class="contacts__item">email - sergeyvoronin72@yandex.ru</li>
+                            <li class="contacts__item">github - https://github.com/SergeyVoron</li>
+                            <li class="contacts__item">discord - SergeyVoron (@SergeyVoron)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__inner">
+                    <nav class="footer__menu">
+                        <ul class="footer__menu__list">
+                            <li class="footer__item"><a class="footer__list-link" href="https://github.com/SergeyVoron">
+                                    Github</a></li>
+                        </ul>
+                    </nav>
+                    <a class="footer__logo" href="https://rs.school/js/">
+                        <img class="footer__logo__link" src="img/271736_1.png" alt="logo">
+                    </a>
+                    <span class="date">16.12.2022</span>
+                </div>
+            </div>
+        </footer>
 </body>
+
 </html>
